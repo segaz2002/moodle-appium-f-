@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{58DFB7FA-BBF0-4BE4-A0FC-6F825F4D00DA}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="moodleNufs/Test.fs">
+    <Files>
+      <File FileName="moodleNufs/Test.fs" Line="24" Column="16" />
+      <File FileName="packages/Castle.Core.4.0.0/readme.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.moodleNufs PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

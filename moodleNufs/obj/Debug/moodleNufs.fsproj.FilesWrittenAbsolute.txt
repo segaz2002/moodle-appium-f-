@@ -1,0 +1,12 @@
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/obj/Debug/.NETFramework,Version=v4.5.1.AssemblyAttribute.fs
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/moodleNufs.dll.mdb
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/moodleNufs.dll
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/obj/Debug/moodleNufs.dll
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/obj/Debug/moodleNufs.dll.mdb
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/Castle.Core.dll
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/Newtonsoft.Json.dll
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/WebDriver.dll
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/WebDriver.Support.dll
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/appium-dotnet-driver.dll
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/nunit.framework.dll
+/Users/gabrielo/Projects/moodleNufs/moodleNufs/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.fs

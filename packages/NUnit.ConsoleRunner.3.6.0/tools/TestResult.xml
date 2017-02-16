@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Failed" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.6.0.0" clr-version="4.0.30319.42000" start-time="2017-02-15 07:21:27Z" end-time="2017-02-15 07:21:29Z" duration="1.014599">
+  <command-line><![CDATA[/Users/gabrielo/Projects/moodleNufs/packages/NUnit.ConsoleRunner.3.6.0/tools/nunit3-console.exe ../../../moodleNufs/bin/Debug/moodleNufs.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1003" name="moodleNufs.dll" fullname="/Users/gabrielo/Projects/moodleNufs/moodleNufs/bin/Debug/moodleNufs.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-02-15 07:21:28Z" end-time="2017-02-15 07:21:28Z" duration="0.232164" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Unix 16.3.0.0" platform="Unix" cwd="/Users/gabrielo/Projects/moodleNufs/packages/NUnit.ConsoleRunner.3.6.0/tools" machine-name="GabsMac.local" user="gabrielo" user-domain="GabsMac.local" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="/Users/gabrielo/Projects/moodleNufs/packages/NUnit.ConsoleRunner.3.6.0/tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="5186" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1004" name="moodleNufs" fullname="moodleNufs" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-02-15 07:21:28Z" end-time="2017-02-15 07:21:28Z" duration="0.221769" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="Test" fullname="moodleNufs.Test" classname="moodleNufs.Test" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2017-02-15 07:21:28Z" end-time="2017-02-15 07:21:28Z" duration="0.217741" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1001" name="appLoaded" fullname="moodleNufs.Test.appLoaded" methodname="appLoaded" classname="moodleNufs.Test" runstate="Runnable" seed="350653640" result="Failed" label="Error" start-time="2017-02-15 07:21:28Z" end-time="2017-02-15 07:21:28Z" duration="0.190531" asserts="0">
+          <properties>
+            <property name="Order" value="1" />
+          </properties>
+          <failure>
+            <message><![CDATA[OpenQA.Selenium.WebDriverException : Unexpected error. System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000d1] in <5071a6e4a4564e19a2eda0f53e42f9bd>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0019b] in <5071a6e4a4564e19a2eda0f53e42f9bd>:0 
+   --- End of inner exception stack trace ---
+  at OpenQA.Selenium.Appium.Service.AppiumCommandExecutor.Execute (OpenQA.Selenium.Remote.Command commandToExecute) [0x0005e] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at OpenQA.Selenium.Remote.RemoteWebDriver.Execute (System.String driverCommandToExecute, System.Collections.Generic.Dictionary`2[TKey,TValue] parameters) [0x00014] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 ]]></message>
+            <stack-trace><![CDATA[  at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError (OpenQA.Selenium.Remote.Response errorResponse) [0x001be] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 
+  at OpenQA.Selenium.Remote.RemoteWebDriver.Execute (System.String driverCommandToExecute, System.Collections.Generic.Dictionary`2[TKey,TValue] parameters) [0x00046] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 
+  at OpenQA.Selenium.Appium.AppiumDriver`1[W].Execute (System.String driverCommandToExecute, System.Collections.Generic.Dictionary`2[TKey,TValue] parameters) [0x00000] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession (OpenQA.Selenium.ICapabilities desiredCapabilities) [0x0001e] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 
+  at OpenQA.Selenium.Remote.RemoteWebDriver..ctor (OpenQA.Selenium.Remote.ICommandExecutor commandExecutor, OpenQA.Selenium.ICapabilities desiredCapabilities) [0x0001e] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 
+  at OpenQA.Selenium.Appium.AppiumDriver`1[W]..ctor (OpenQA.Selenium.Remote.ICommandExecutor commandExecutor, OpenQA.Selenium.ICapabilities desiredCapabilities) [0x00000] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at OpenQA.Selenium.Appium.AppiumDriver`1[W]..ctor (System.Uri remoteAddress, OpenQA.Selenium.ICapabilities desiredCapabilities, System.TimeSpan commandTimeout) [0x00008] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at OpenQA.Selenium.Appium.Android.AndroidDriver`1[W]..ctor (System.Uri remoteAddress, OpenQA.Selenium.Remote.DesiredCapabilities desiredCapabilities, System.TimeSpan commandTimeout) [0x0000d] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at moodleNufs.Test.Init () [0x00036] in <58a328f3709a70bda7450383f328a358>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00038] in <8f2c484307284b51944a1a13a14c0266>:0 ]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="0-1002" name="connectSite" fullname="moodleNufs.Test.connectSite" methodname="connectSite" classname="moodleNufs.Test" runstate="Runnable" seed="517268676" result="Failed" label="Error" start-time="2017-02-15 07:21:28Z" end-time="2017-02-15 07:21:28Z" duration="0.003627" asserts="0">
+          <properties>
+            <property name="Order" value="2" />
+          </properties>
+          <failure>
+            <message><![CDATA[OpenQA.Selenium.WebDriverException : Unexpected error. System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000d1] in <5071a6e4a4564e19a2eda0f53e42f9bd>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0019b] in <5071a6e4a4564e19a2eda0f53e42f9bd>:0 
+   --- End of inner exception stack trace ---
+  at OpenQA.Selenium.Appium.Service.AppiumCommandExecutor.Execute (OpenQA.Selenium.Remote.Command commandToExecute) [0x0005e] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at OpenQA.Selenium.Remote.RemoteWebDriver.Execute (System.String driverCommandToExecute, System.Collections.Generic.Dictionary`2[TKey,TValue] parameters) [0x00014] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 ]]></message>
+            <stack-trace><![CDATA[  at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError (OpenQA.Selenium.Remote.Response errorResponse) [0x001be] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 
+  at OpenQA.Selenium.Remote.RemoteWebDriver.Execute (System.String driverCommandToExecute, System.Collections.Generic.Dictionary`2[TKey,TValue] parameters) [0x00046] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 
+  at OpenQA.Selenium.Appium.AppiumDriver`1[W].Execute (System.String driverCommandToExecute, System.Collections.Generic.Dictionary`2[TKey,TValue] parameters) [0x00000] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession (OpenQA.Selenium.ICapabilities desiredCapabilities) [0x0001e] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 
+  at OpenQA.Selenium.Remote.RemoteWebDriver..ctor (OpenQA.Selenium.Remote.ICommandExecutor commandExecutor, OpenQA.Selenium.ICapabilities desiredCapabilities) [0x0001e] in <1d3f371c7d3240a69d2057d5d4e507e9>:0 
+  at OpenQA.Selenium.Appium.AppiumDriver`1[W]..ctor (OpenQA.Selenium.Remote.ICommandExecutor commandExecutor, OpenQA.Selenium.ICapabilities desiredCapabilities) [0x00000] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at OpenQA.Selenium.Appium.AppiumDriver`1[W]..ctor (System.Uri remoteAddress, OpenQA.Selenium.ICapabilities desiredCapabilities, System.TimeSpan commandTimeout) [0x00008] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at OpenQA.Selenium.Appium.Android.AndroidDriver`1[W]..ctor (System.Uri remoteAddress, OpenQA.Selenium.Remote.DesiredCapabilities desiredCapabilities, System.TimeSpan commandTimeout) [0x0000d] in <9b3ceeffa60d410090f33f3b9ea8ebde>:0 
+  at moodleNufs.Test.Init () [0x00036] in <58a328f3709a70bda7450383f328a358>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00038] in <8f2c484307284b51944a1a13a14c0266>:0 ]]></stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
